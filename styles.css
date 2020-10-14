@@ -187,7 +187,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 .calc__column-right {
     display: flex;
-    /* align-items: center; */
 }
 
 /* sliders */
@@ -197,7 +196,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .calc__slider {
-    width: 200px;
+    width: 240px;
     position: relative;
 }
 
@@ -297,7 +296,8 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 .calc__date, .calc__summ, .calc__period, .calc__summ-add {
     box-sizing: border-box;
-    width: 100px;
+    padding-left: 7px;
+    width: 88px;
     height: 23px;
 }
 
@@ -326,6 +326,11 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     font-weight: bold;
     font-size: 12px;
     margin-right: 25px;
+    cursor: pointer;
+}
+
+.calc__sumbit:hover {
+    box-shadow: none;
 }
 
 .calc__footer-text {
