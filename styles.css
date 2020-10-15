@@ -233,6 +233,10 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     background-image: linear-gradient(to top, #a5a5a5 0%, #a5a5a5 1%, #ffffff 100%);
 }
 
+.ui-slider-handle:focus {
+    outline: none;
+}
+
 /* ui-datepicker */
 
 .ui-datepicker {
@@ -331,6 +335,14 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 .calc__sumbit:hover {
     box-shadow: none;
+}
+
+.calc__sumbit:active, .calc__sumbit:focus {
+    outline: none;
+}
+
+.calc__sumbit::-moz-focus-inner {
+    border: 0;
 }
 
 .calc__footer-text {
